@@ -7,7 +7,7 @@ void main() {
     ++N;
     dchar[] res;
     while (N > 0) {
-        --N;   
+        --N;
         res ~= to!dchar(N % 26 + 'A');
         N /= 26;
     }

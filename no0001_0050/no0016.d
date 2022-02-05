@@ -7,7 +7,7 @@ void main() {
     auto a = readln.chomp.split.to!(ulong[]);
 
     ulong M = 1000003;
-    
+
     ulong res;
     foreach (e; a) {
         res = (res + powmod(x, e, M)) % M;

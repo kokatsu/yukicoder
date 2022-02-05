@@ -28,7 +28,7 @@ void main() {
         foreach (j; 0 .. l) {
             w = max(w, C[j+1]-C[j]);
         }
-        
+
         res += A[i+1] - A[i] - w;
     }
 

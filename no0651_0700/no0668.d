@@ -7,7 +7,7 @@ void main() {
     if (M % 10 >= 5) M += 10;
 
     string S = M.to!string;
-    
+
     long a = S[0] - '0';
     long b = S[1] - '0';
     long c = N.length + S.length - 4;

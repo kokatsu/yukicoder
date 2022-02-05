@@ -5,7 +5,7 @@ void main() {
     readf("%d\n", N);
 
     auto x = readln.chomp.split.to!(long[]);
-    
+
     x.sort!"a > b";
 
     long res = x[0];

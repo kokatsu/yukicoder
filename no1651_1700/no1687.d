@@ -6,7 +6,7 @@ void main() {
 
     auto P = readln.chomp.split.to!(long[]);
     auto R = iota(1L, N+1).array;
-    
+
     zip(P, R).sort!"a[0] > b[0]";
 
     long ttl = N * (N + 1) / 2;

@@ -15,7 +15,7 @@ void main() {
     while (ng - ok > 1) {
         long mid = (ok + ng) / 2;
 
-        auto dp = new long[][](D, N);        
+        auto dp = new long[][](D, N);
         foreach (i; 0 .. D) {
             dp[i][] = M;
         }

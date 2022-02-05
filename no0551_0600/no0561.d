@@ -3,7 +3,7 @@ import std;
 void main() {
     long N, D;
     readf("%d %d\n", N, D);
-    
+
     auto dp = new long[][](N+1, 2);
     dp[0][1] = long.min / 2;
     foreach (i; 0 .. N) {

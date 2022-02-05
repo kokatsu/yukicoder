@@ -10,7 +10,7 @@ void main() {
         long mid = (ok + ng) / 2;
 
         long d = mid / A;
-        
+
         bool isOver;
         long M = muls(B, d, isOver) + mid - d;
 

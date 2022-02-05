@@ -18,7 +18,7 @@ void main() {
     void dfs(int root) {
         seen[root] = true;
         ++part[root];
-        
+
         foreach (t; tree[root]) {
             if (seen[t]) {
                 continue;

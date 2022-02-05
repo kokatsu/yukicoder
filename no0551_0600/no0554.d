@@ -8,7 +8,7 @@ void main() {
 
     auto odd = new long[](n/2+1), even = new long[](n/2+1);
     odd[0] = 1, even[1] = 2;
-    
+
     long res;
     if (n <= 2) {
         res = n;

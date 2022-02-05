@@ -6,7 +6,7 @@ void main() {
 
     string C = "NESW";
     auto D = C.cycle.take(12).to!string;
-    
+
     long a = -1, b = -1;
     foreach (i, d; D) {
         if (a < 0 && d == A) a = i;

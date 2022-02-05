@@ -6,7 +6,7 @@ void main() {
     ulong N = S.length;
 
     long[long] list;
-    
+
     void f(long num, long plus, ulong cnt) {
         if (cnt == N) {
             ++list[num+plus];

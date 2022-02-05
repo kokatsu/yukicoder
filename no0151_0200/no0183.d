@@ -7,7 +7,7 @@ void main() {
     auto A = readln.chomp.split.to!(int[]);
 
     int lim = A.maxElement * 2 + 1;
-    
+
     auto list = new bool[](lim);
     list[0] = true;
     foreach (a; A) {

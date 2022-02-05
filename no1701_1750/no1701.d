@@ -28,7 +28,7 @@ void main() {
         long b = i;
         bool canChoose;
         dfs(0, 0, b, canChoose);
-        
+
         if (canChoose) {
             ++res;
         }

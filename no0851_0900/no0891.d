@@ -16,7 +16,7 @@ void main() {
         ];
 
         auto m = matPowMod(mat, n, MOD);
-        
+
         m[1][0].writeln;
     }
 }

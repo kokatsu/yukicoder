@@ -10,7 +10,7 @@ void main() {
     auto X = A.cumulativeFold!"a + b".array;
     auto Y = B.cumulativeFold!"a + b".array;
 
-    auto C = new long[](N*2); 
+    auto C = new long[](N*2);
 
     auto S = new long[](N+1);
     auto T = new long[](N+1);

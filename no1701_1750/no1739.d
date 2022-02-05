@@ -53,6 +53,6 @@ void main() {
             ng = mid;
         }
     }
-    
+
     ok.writeln;
 }

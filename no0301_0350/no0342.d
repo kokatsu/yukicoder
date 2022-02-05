@@ -21,7 +21,7 @@ void main() {
                 else if (cnt == num) {
                     res ~= now;
                 }
-                
+
                 now = [];
                 num = 0;
             }
