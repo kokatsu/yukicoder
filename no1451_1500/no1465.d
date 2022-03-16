@@ -16,7 +16,7 @@ void main() {
         if (num % 2 == 0) {
             f(num/2, cnt+1);
         }
-        
+
         if (num > 3) {
             f(num-3, cnt+1);
         }

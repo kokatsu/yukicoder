@@ -10,5 +10,5 @@ void main() {
     if ((N + 2) % 3 == 0) ++seq[1];
     else if ((N + 2) % 3 == 2) seq[1] += 2;
 
-     writefln("%(%s %)", seq);
+    writefln("%(%s %)", seq);
 }

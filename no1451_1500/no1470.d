@@ -15,7 +15,7 @@ void main() {
         int cnt1 = one[N-1] - one[i];
         int cnt2 = two[N-1] - two[i];
         if (A[i] == 1) {
-            res += cnt2 * 3 + (rem - cnt2) * 2; 
+            res += cnt2 * 3 + (rem - cnt2) * 2;
         }
         else if (A[i] == 2) {
             res += cnt1 * 3 + (rem - cnt1);
